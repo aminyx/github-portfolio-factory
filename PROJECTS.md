@@ -62,6 +62,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | 31 | `sable` ⭐ | Compiler engineering: Hindley-Milner type inference, monomorphization, hand-written WebAssembly emission; the compiler runs in the browser (**[live demo](https://aminyx.github.io/sable/)**) | Rust, wasm32 | done |
 | 32 | `keelstore` ⭐ | Storage-engine internals: LSM tree, WAL with CRC and torn-tail recovery, hand-written skiplist + bloom filter, levelled compaction, snapshots | Go, zero deps | done |
 | 33 | `driftpad` ⭐ | Local-first: RGA + LWW CRDTs written from scratch, convergence property tests, offline IndexedDB, peer sync (**[live demo](https://aminyx.github.io/driftpad/)**) | TypeScript, React | done |
+| 34 | `raftwood` ⭐ | Consensus done properly: Raft from the paper plus pre-vote, check-quorum and the §8 no-op; a deterministic fault simulator checks safety invariants every tick and a linearizability checker replays the log | Go, zero deps | done |
 
 ## Open-source developer tools
 

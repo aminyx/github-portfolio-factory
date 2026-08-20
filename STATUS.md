@@ -1,8 +1,8 @@
 # Status
 
-Current phase: **CI-free wave complete** (sable, keelstore, driftpad — two with live demos on Pages)
+Current phase: **CI-free waves** (sable, keelstore, driftpad, raftwood; hnsw and keelsql in build)
 
-Last updated: 2026-08-20
+Last updated: 2026-08-21
 
 ## Phase state
 
