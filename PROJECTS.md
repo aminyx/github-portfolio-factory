@@ -60,7 +60,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | # | Project | What it proves | Stack | Status |
 |---|---|---|---|---|
 | 31 | `sable` ⭐ | Compiler engineering: Hindley-Milner type inference, monomorphization, hand-written WebAssembly emission; the compiler runs in the browser (**[live demo](https://aminyx.github.io/sable/)**) | Rust, wasm32 | done |
-| 32 | `keelstore` | Storage-engine internals: LSM tree, WAL with CRC and torn-tail recovery, bloom filters, compaction, snapshots | Go | building |
+| 32 | `keelstore` ⭐ | Storage-engine internals: LSM tree, WAL with CRC and torn-tail recovery, hand-written skiplist + bloom filter, levelled compaction, snapshots | Go, zero deps | done |
 | 33 | `driftpad` | Local-first: a CRDT written from scratch with convergence property tests, offline IndexedDB, peer sync | TypeScript | building |
 
 ## Open-source developer tools
