@@ -8,10 +8,10 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 
 | # | Project | What it proves | Stack | Status |
 |---|---|---|---|---|
-| 1 | `citeseek` ⭐ | RAG done seriously: hybrid retrieval (vector+BM25, RRF), reranking, verifiable citations, retrieval eval (Recall@K, MRR) gating CI | Python, FastAPI, Postgres+pgvector, provider-agnostic LLM layer (Anthropic/OpenAI/Ollama/mock) | building |
+| 1 | `citeseek` ⭐ | RAG done seriously: hybrid retrieval (vector+BM25, RRF), reranking, verifiable citations, retrieval eval (Recall@K, MRR) gating CI | Python, FastAPI, Postgres+pgvector, provider-agnostic LLM layer (Anthropic/OpenAI/Ollama/mock) | done |
 | 2 | `triagent` ⭐ | Hand-rolled agent loop: tool use, parallel calls, error results, budgets; seeded-incident eval scorecard | Python, Anthropic SDK-style loop, Docker Compose demo env | planned |
 | 3 | `evalgate` | LLM regression testing as a product: versioned datasets, judge calibration, CI gate action | Python, GitHub Actions, SQLite run history | planned |
-| 4 | `mcp-devdb` | MCP protocol literacy + security model: read-only DB introspection server with allowlist and query budgets | TypeScript, MCP SDK, Postgres/SQLite | planned |
+| 4 | `mcp-devdb` | MCP protocol literacy + security model: read-only DB introspection server with allowlist and query budgets | TypeScript, MCP SDK, Postgres/SQLite | building |
 | 5 | `paperparse` | Structured extraction pipeline: strict schemas, per-field confidence, review queue, gold-set accuracy | Python, FastAPI, Pydantic, React review UI | planned |
 | 6 | `docmind` | Full-stack AI product: tenant-scoped RAG chat with streaming citations and isolation writeup | Next.js 16, Vercel AI SDK, pgvector, Drizzle, better-auth | planned |
 | 7 | `diffsentry` | AI with measured precision: niche PR reviewer (Dockerfiles) that tracks its own false-positive rate | Go, GitHub API, structured outputs | planned |
@@ -31,8 +31,8 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 
 | # | Project | What it proves | Stack | Status |
 |---|---|---|---|---|
-| 14 | `threshold` ⭐ | API gateway internals: token-bucket + sliding-window rate limiting, circuit breaker, hedged retries, RateLimit headers (IETF draft), OTel, k6 numbers | Go, stdlib net/http, Redis, OpenTelemetry | building |
-| 15 | `ledgerline` ⭐ | Money correctness: double-entry ledger, idempotency keys, payment state machine, chaos provider, reconciliation reports | Go, Postgres, sqlc, NATS JetStream outbox | planned |
+| 14 | `threshold` ⭐ | API gateway internals: token-bucket + sliding-window rate limiting, circuit breaker, hedged retries, RateLimit headers (IETF draft), OTel, k6 numbers | Go, stdlib net/http, Redis, OpenTelemetry | done |
+| 15 | `ledgerline` ⭐ | Money correctness: double-entry ledger, idempotency keys, payment state machine, chaos provider, reconciliation reports | Go, Postgres, pgx, NATS JetStream outbox | done |
 | 16 | `keyforge` | Auth provider side: OAuth2/OIDC + PKCE per RFC 9700, passkeys, refresh-token families with reuse detection | Go, Postgres, Redis, WebAuthn | planned |
 | 17 | `sagaworks` | Distributed consistency: outbox + CDC (Debezium→Redpanda), choreography vs orchestration sagas, DLQ with replay CLI | Go + NestJS 11, Postgres, Redpanda | planned |
 | 18 | `vaultic` | Systems Rust: S3-compatible storage gateway — presigned URLs, multipart upload state machine, dedup | Rust, Axum 0.8, Tokio, SQLx, Postgres | planned |
@@ -59,7 +59,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 
 | # | Project | What it proves | Stack | Status |
 |---|---|---|---|---|
-| 27 | `repo-signal` ⭐ | Adoptable CLI: scores any repo against the 2026 quality checklist (README, CI, tests, license, topics), npx-runnable | TypeScript, Node 24, vitest | planned |
+| 27 | `repo-signal` ⭐ | Adoptable CLI: scores any repo against the 2026 quality checklist (README, CI, tests, license, topics), npx-runnable | TypeScript, Node 24, vitest | done |
 | 28 | `actions-lock` | Security tooling: audits workflows for unpinned actions, pins to SHAs, opens update PRs | Go (single binary) or TypeScript | planned |
 | 29 | `readme-arch` | AST tooling: generates mermaid architecture diagrams from real import graphs, README injection | TypeScript, ts-morph | planned |
 | 30 | `agent-spend` | Local-first utility: normalizes AI-tool usage logs into per-project spend reports | TypeScript, SQLite | planned |

@@ -11,7 +11,7 @@ Last updated: 2026-08-20
 | 1 — Research | done |
 | 2 — Final project list | done |
 | 3 — Foundation | done |
-| 4 — Flagship wave | in progress |
+| 4 — Flagship wave | in progress (4 of 5 done: threshold, citeseek, ledgerline, repo-signal) |
 | 5 — Verification & deployment | pending |
 | 6 — Second wave | pending |
 | 7 — Mobile / DevOps / security | pending |
