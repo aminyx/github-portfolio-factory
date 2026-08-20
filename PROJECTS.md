@@ -61,7 +61,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 |---|---|---|---|---|
 | 31 | `sable` ⭐ | Compiler engineering: Hindley-Milner type inference, monomorphization, hand-written WebAssembly emission; the compiler runs in the browser (**[live demo](https://aminyx.github.io/sable/)**) | Rust, wasm32 | done |
 | 32 | `keelstore` ⭐ | Storage-engine internals: LSM tree, WAL with CRC and torn-tail recovery, hand-written skiplist + bloom filter, levelled compaction, snapshots | Go, zero deps | done |
-| 33 | `driftpad` | Local-first: a CRDT written from scratch with convergence property tests, offline IndexedDB, peer sync | TypeScript | building |
+| 33 | `driftpad` ⭐ | Local-first: RGA + LWW CRDTs written from scratch, convergence property tests, offline IndexedDB, peer sync (**[live demo](https://aminyx.github.io/driftpad/)**) | TypeScript, React | done |
 
 ## Open-source developer tools
 

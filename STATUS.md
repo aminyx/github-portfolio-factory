@@ -1,6 +1,6 @@
 # Status
 
-Current phase: **CI-free wave** (sable shipped with a live demo; keelstore and driftpad in progress)
+Current phase: **CI-free wave complete** (sable, keelstore, driftpad — two with live demos on Pages)
 
 Last updated: 2026-08-20
 
