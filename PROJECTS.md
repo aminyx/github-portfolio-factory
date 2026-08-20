@@ -55,6 +55,14 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | 25 | `spendlog` | Offline-first mobile: local DB, sync queue, conflict matrix, optimistic UI | Flutter 3.47, Riverpod 3, Drift | planned |
 | 26 | `vitalview` | Native Android depth: Health Connect, Glance widget, WorkManager, baseline profiles with measured startup | Kotlin 2.4, Compose 1.12, Navigation 3 | planned |
 
+## Systems & language (built without GitHub Actions — see note)
+
+| # | Project | What it proves | Stack | Status |
+|---|---|---|---|---|
+| 31 | `sable` ⭐ | Compiler engineering: Hindley-Milner type inference, monomorphization, hand-written WebAssembly emission; the compiler runs in the browser (**[live demo](https://aminyx.github.io/sable/)**) | Rust, wasm32 | done |
+| 32 | `keelstore` | Storage-engine internals: LSM tree, WAL with CRC and torn-tail recovery, bloom filters, compaction, snapshots | Go | building |
+| 33 | `driftpad` | Local-first: a CRDT written from scratch with convergence property tests, offline IndexedDB, peer sync | TypeScript | building |
+
 ## Open-source developer tools
 
 | # | Project | What it proves | Stack | Status |

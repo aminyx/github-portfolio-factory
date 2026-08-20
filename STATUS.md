@@ -1,6 +1,6 @@
 # Status
 
-Current phase: **7 — Mobile / DevOps wave next** (third wave done: vaultic, pulsewire, teamboard)
+Current phase: **CI-free wave** (sable shipped with a live demo; keelstore and driftpad in progress)
 
 Last updated: 2026-08-20
 
@@ -20,3 +20,12 @@ Last updated: 2026-08-20
 | 10 — Final audit | pending |
 
 Per-project state lives in [PROJECTS.md](PROJECTS.md).
+
+## CI note
+
+The account's GitHub Actions minutes are exhausted (private repositories
+consume them; public repositories do not). Projects from the CI-free wave
+onwards ship **no workflow at all**: the gate is a `make check` /
+`npm run check` target plus a committed git pre-commit hook, and live demos
+are served by GitHub Pages directly from a committed `docs/` folder, which
+needs no workflow. Existing repositories keep their green CI untouched.
