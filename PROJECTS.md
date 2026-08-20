@@ -10,7 +10,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 |---|---|---|---|---|
 | 1 | `citeseek` ⭐ | RAG done seriously: hybrid retrieval (vector+BM25, RRF), reranking, verifiable citations, retrieval eval (Recall@K, MRR) gating CI | Python, FastAPI, Postgres+pgvector, provider-agnostic LLM layer (Anthropic/OpenAI/Ollama/mock) | done |
 | 2 | `triagent` ⭐ | Hand-rolled agent loop: tool use, parallel calls, error results, budgets; seeded-incident eval scorecard | Python, provider-agnostic loop, offline incident lab | done |
-| 3 | `evalgate` | LLM regression testing as a product: versioned datasets, judge calibration, CI gate action | Python, SQLite run history, judge kappa | published |
+| 3 | `evalgate` | LLM regression testing as a product: versioned datasets, judge calibration, CI gate action | Python, SQLite run history, judge kappa | done |
 | 4 | `mcp-devdb` | MCP protocol literacy + security model: read-only DB introspection server with allowlist and query budgets | TypeScript, MCP SDK, Postgres/SQLite | done |
 | 5 | `paperparse` | Structured extraction pipeline: strict schemas, per-field confidence, review queue, gold-set accuracy | Python, FastAPI, Pydantic, React review UI | planned |
 | 6 | `docmind` | Full-stack AI product: tenant-scoped RAG chat with streaming citations and isolation writeup | Next.js 16, Vercel AI SDK, pgvector, Drizzle, better-auth | planned |
