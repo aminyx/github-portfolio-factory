@@ -11,7 +11,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | 1 | `citeseek` ⭐ | RAG done seriously: hybrid retrieval (vector+BM25, RRF), reranking, verifiable citations, retrieval eval (Recall@K, MRR) gating CI | Python, FastAPI, Postgres+pgvector, provider-agnostic LLM layer (Anthropic/OpenAI/Ollama/mock) | done |
 | 2 | `triagent` ⭐ | Hand-rolled agent loop: tool use, parallel calls, error results, budgets; seeded-incident eval scorecard | Python, Anthropic SDK-style loop, Docker Compose demo env | planned |
 | 3 | `evalgate` | LLM regression testing as a product: versioned datasets, judge calibration, CI gate action | Python, GitHub Actions, SQLite run history | planned |
-| 4 | `mcp-devdb` | MCP protocol literacy + security model: read-only DB introspection server with allowlist and query budgets | TypeScript, MCP SDK, Postgres/SQLite | building |
+| 4 | `mcp-devdb` | MCP protocol literacy + security model: read-only DB introspection server with allowlist and query budgets | TypeScript, MCP SDK, Postgres/SQLite | done |
 | 5 | `paperparse` | Structured extraction pipeline: strict schemas, per-field confidence, review queue, gold-set accuracy | Python, FastAPI, Pydantic, React review UI | planned |
 | 6 | `docmind` | Full-stack AI product: tenant-scoped RAG chat with streaming citations and isolation writeup | Next.js 16, Vercel AI SDK, pgvector, Drizzle, better-auth | planned |
 | 7 | `diffsentry` | AI with measured precision: niche PR reviewer (Dockerfiles) that tracks its own false-positive rate | Go, GitHub API, structured outputs | planned |
@@ -25,7 +25,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | 10 | `sketchsync` | Real-time collaboration: CRDT whiteboard, presence, offline merge | Vite+React, Yjs, WebSocket server, Turso | planned |
 | 11 | `statuskit` | Background jobs + time-series: status pages, multi-region checks, incident workflow | Next.js 16, cron workers, Drizzle, Resend | planned |
 | 12 | `slotly` | Hard domain logic: scheduling with timezones/DST, calendar sync | Next.js 16, Prisma 7 (second ORM deliberately), Postgres | planned |
-| 13 | `crowdpoll` | Live fan-out: audience Q&A with anonymous sessions, upvotes, live results | Next.js 16, Convex or WS, Recharts | planned |
+| 13 | `crowdpoll` ⭐ | Live fan-out: audience Q&A with anonymous sessions, upvotes, live results over SSE | Next.js 16, Drizzle, better-auth, SSE | done |
 
 ## Backend / distributed systems
 
