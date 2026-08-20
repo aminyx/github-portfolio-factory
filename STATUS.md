@@ -1,6 +1,6 @@
 # Status
 
-Current phase: **6/7 — Third wave** (vaultic + pulsewire done; teamboard in progress)
+Current phase: **7 — Mobile / DevOps wave next** (third wave done: vaultic, pulsewire, teamboard)
 
 Last updated: 2026-08-20
 

@@ -20,7 +20,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 
 | # | Project | What it proves | Stack | Status |
 |---|---|---|---|---|
-| 8 | `teamboard` ⭐ | Multi-tenant SaaS: organizations, RBAC, audit log, real-time board sync | Next.js 16, Drizzle, Neon, better-auth orgs, shadcn/ui, Tailwind v4 | planned |
+| 8 | `teamboard` ⭐ | Multi-tenant SaaS: organizations, server-side RBAC, invitations, audit log, real-time kanban over SSE, seat billing | Next.js 16, Drizzle, Postgres, better-auth, Tailwind v4 | done |
 | 9 | `keymint` | API-key platform: per-key rate limits, usage metering, analytics dashboard | Hono on Cloudflare Workers, Upstash Redis, Next.js dashboard | planned |
 | 10 | `sketchsync` | Real-time collaboration: CRDT whiteboard, presence, offline merge | Vite+React, Yjs, WebSocket server, Turso | planned |
 | 11 | `statuskit` | Background jobs + time-series: status pages, multi-region checks, incident workflow | Next.js 16, cron workers, Drizzle, Resend | planned |
