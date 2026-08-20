@@ -1,6 +1,6 @@
 # Status
 
-Current phase: **CI-free waves** (sable, keelstore, driftpad, raftwood; hnsw and keelsql in build)
+Current phase: **CI-free waves** (sable, keelstore, driftpad, raftwood, keelsql, taintline; hnsw in build)
 
 Last updated: 2026-08-21
 
@@ -14,7 +14,7 @@ Last updated: 2026-08-21
 | 4 — Flagship wave | done: threshold, citeseek, ledgerline, repo-signal, crowdpoll, mcp-devdb |
 | 5 — Verification & deployment | CI green on all published repos; live demos deferred (no platform tokens in env — see deployment notes in each README) |
 | 6 — Second wave | in progress: triagent, keyforge, actions-lock, keyless-ci done; evalgate done |
-| 7 — Mobile / DevOps / security | pending |
+| 7 — Mobile / DevOps / security | security covered by `taintline` (taint analysis, SARIF); mobile still blocked with no local SDKs |
 | 8 — Portfolio website | pending |
 | 9 — GitHub cleanup | partial: junk repos hidden, profile README refreshed; pinning requires manual UI step |
 | 10 — Final audit | pending |

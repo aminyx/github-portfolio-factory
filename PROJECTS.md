@@ -63,6 +63,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | 32 | `keelstore` ⭐ | Storage-engine internals: LSM tree, WAL with CRC and torn-tail recovery, hand-written skiplist + bloom filter, levelled compaction, snapshots | Go, zero deps | done |
 | 33 | `driftpad` ⭐ | Local-first: RGA + LWW CRDTs written from scratch, convergence property tests, offline IndexedDB, peer sync (**[live demo](https://aminyx.github.io/driftpad/)**) | TypeScript, React | done |
 | 34 | `raftwood` ⭐ | Consensus done properly: Raft from the paper plus pre-vote, check-quorum and the §8 no-op; a deterministic fault simulator checks safety invariants every tick and a linearizability checker replays the log | Go, zero deps | done |
+| 35 | `keelsql` ⭐ | Query engine internals: hand-written lexer/parser, logical plan with index pushdown refused on type mismatch, volcano executor, order-preserving key encoding, SQL three-valued logic; index vs scan measured at 29× | Go, on top of keelstore | done |
 
 ## Open-source developer tools
 
@@ -70,6 +71,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 |---|---|---|---|---|
 | 27 | `repo-signal` ⭐ | Adoptable CLI: scores any repo against the 2026 quality checklist (README, CI, tests, license, topics), npx-runnable | TypeScript, Node 24, vitest | done |
 | 28 | `actions-lock` | Security tooling: audits workflows for unpinned actions, pins to SHAs, detects repointed tags | Go single binary | done |
+| 36 | `taintline` ⭐ | Security engineering: interprocedural taint analysis with calls inlined so every finding carries its real path, sanitizers matched to specific sinks, SARIF code flows, measured precision 92.9% / recall 100% on a hand-checked corpus (**[live demo](https://aminyx.github.io/taintline/)**) | TypeScript, acorn | done |
 | 29 | `readme-arch` | AST tooling: generates mermaid architecture diagrams from real import graphs, README injection | TypeScript, ts-morph | planned |
 | 30 | `agent-spend` | Local-first utility: normalizes AI-tool usage logs into per-project spend reports | TypeScript, SQLite | planned |
 
