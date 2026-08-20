@@ -1,0 +1,8 @@
+/bin/
+/dist/
+*.exe
+*.out
+coverage.txt
+.env
+.DS_Store
+Thumbs.db
