@@ -1,6 +1,6 @@
 # Status
 
-Current phase: **6 — Second wave** (done this wave: triagent, keyforge, actions-lock, keyless-ci, evalgate; next: teamboard, sagaworks, vaultic)
+Current phase: **6/7 — Third wave** (vaultic + pulsewire done; teamboard in progress)
 
 Last updated: 2026-08-20
 

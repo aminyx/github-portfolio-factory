@@ -35,8 +35,8 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | 15 | `ledgerline` ⭐ | Money correctness: double-entry ledger, idempotency keys, payment state machine, chaos provider, reconciliation reports | Go, Postgres, pgx, NATS JetStream outbox | done |
 | 16 | `keyforge` ⭐ | Auth provider side: OAuth2/OIDC + PKCE per RFC 9700, passkeys, refresh-token families with reuse detection | Go, Postgres, WebAuthn, RS256 JWKS | done |
 | 17 | `sagaworks` | Distributed consistency: outbox + CDC (Debezium→Redpanda), choreography vs orchestration sagas, DLQ with replay CLI | Go + NestJS 11, Postgres, Redpanda | planned |
-| 18 | `vaultic` | Systems Rust: S3-compatible storage gateway — presigned URLs, multipart upload state machine, dedup | Rust, Axum 0.8, Tokio, SQLx, Postgres | planned |
-| 19 | `pulsewire` | WebSockets at scale: sharded nodes, NATS fan-out, backpressure, resume-after-reconnect, connection benchmarks | Go, NATS, Redis Streams | planned |
+| 18 | `vaultic` ⭐ | Systems Rust: S3-compatible storage gateway — SigV4 (AWS-vector-verified), multipart, presigned URLs, content-addressed dedup | Rust, Axum, Tokio, SQLx, Postgres | done |
+| 19 | `pulsewire` | WebSockets at scale: cross-node NATS fan-out, backpressure eviction, resume-without-gaps, presence, load-tested | Go, NATS JetStream, Prometheus | done |
 | 20 | `queuecraft` | Delivery semantics: job queue with visibility timeouts, at-least-once + idempotency, DLQ, dashboard | Rust, Redis Lua / Postgres SKIP LOCKED | planned |
 
 ## DevOps / platform
