@@ -72,6 +72,7 @@ Status: `planned` → `building` → `published` → `done` (done = CI green on 
 | 27 | `repo-signal` ⭐ | Adoptable CLI: scores any repo against the 2026 quality checklist (README, CI, tests, license, topics), npx-runnable | TypeScript, Node 24, vitest | done |
 | 28 | `actions-lock` | Security tooling: audits workflows for unpinned actions, pins to SHAs, detects repointed tags | Go single binary | done |
 | 36 | `taintline` ⭐ | Security engineering: interprocedural taint analysis with calls inlined so every finding carries its real path, sanitizers matched to specific sinks, SARIF code flows, measured precision 92.9% / recall 100% on a hand-checked corpus (**[live demo](https://aminyx.github.io/taintline/)**) | TypeScript, acorn | done |
+| 37 | `lockstep` ⭐ | Algorithms with a proof obligation: a Pike VM regex engine with linear-time matching, ECMAScript's two easily-missed repetition rules implemented as instructions, and 2M differential comparisons against `RegExp` with zero disagreements outside one documented family (**[live demo](https://aminyx.github.io/lockstep/)**) | TypeScript, zero deps | done |
 | 29 | `readme-arch` | AST tooling: generates mermaid architecture diagrams from real import graphs, README injection | TypeScript, ts-morph | planned |
 | 30 | `agent-spend` | Local-first utility: normalizes AI-tool usage logs into per-project spend reports | TypeScript, SQLite | planned |
 
