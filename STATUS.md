@@ -1,6 +1,6 @@
 # Status
 
-Current phase: **CI-free waves** (sable, keelstore, driftpad, raftwood, keelsql, taintline, lockstep; hnsw in audit-fix)
+Current phase: **CI-free waves complete** (sable, keelstore, driftpad, raftwood, keelsql, taintline, lockstep, hnsw — four with live demos on Pages)
 
 Last updated: 2026-08-21
 
